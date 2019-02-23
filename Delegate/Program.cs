@@ -5,8 +5,8 @@ namespace Delegate
     class Program
     {
 
-        //un delegate è un metodo che si comporta come un oggetto: infatti le istanze di un delegate, permetto di eseguire dei metodi. Un delegate, per renderlo accessibile in tutto il progetto è opportuno che sia pubblico e che non venga incapsulato dentro altre classi.
-        //In questo caso il delegate ritornerà un bool, ma solitamente è preferibile che non ritorni un risultato, soprattutto quando li si usa in multicast, come nel progetto "Delegate.Multicast" presente in questa soluzione 
+        //Un delegate è un tipo riferimento usato per incapsulare un metodo. Sostanzialmente il metodo si "comporta" come un oggetto: le istanze di un delegate, permettono di eseguire dei metodi. 
+        //In questo esempio il delegate ritornerà un bool, ma solitamente è preferibile che non ritorni un risultato, soprattutto quando li si usa in multicast, come nel progetto "Delegate.Multicast" presente in questa soluzione 
         public delegate bool ConfrontoDelegate(int x, int y);
 
         static void Main(string[] args)
