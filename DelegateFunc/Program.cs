@@ -22,9 +22,9 @@ namespace DelegateFunc
 
             //Assegno myFunctionSum al delegate Func
             Func<int, int, string> func = p.myFunctionSum;
-
             string result = func(2, 4);
             Console.WriteLine(result); //Stampa la somma
+           
             Console.WriteLine();
             Console.WriteLine("Premi INVIO per terminare...");
             Console.ReadLine();
