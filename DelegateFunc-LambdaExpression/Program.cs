@@ -18,6 +18,8 @@ namespace DelegateFunc_LambdaExpression
             //Invoco l'esecuzione della function con "canDrive(dob)", il tipo ritornato sarà un bool
             Console.WriteLine($"Ad oggi {DateTime.Today.ToShortDateString()} può guidare? {canDrive(dob)}");
             Console.ReadLine();
+            
+            //In alternativa per evocare la function si può usare il metodo Invoke canDrive.Invoke(dob)
         }
     }
 }
