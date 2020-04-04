@@ -23,3 +23,5 @@ Nel progetto DelegateMulticast è stato fatto uso del multicast per assegnare ad
 Nel progetto DelegateAction si osserva il comportamento di "Action", un delegate che non ritorna nulla, è un tipo predefinito e come dice la parola stessa si tratta di un'azione, quindi la funzione non ritorna un risultato, ma void.
 
 Nel progetto DelegateFunc si osserva il comportamento di "Func", un delegate che a differenza di Action ritorna un risultato. Viene solitamente usato per eseguire una funzione/azione che deve ritornare un risultato.
+
+Nel progetto DelegateFunc-LambdaExpression si osserva il comportamento di "Func" associato all'uso di una Lambda Expression, vedi "operatore lambda" (=>).
